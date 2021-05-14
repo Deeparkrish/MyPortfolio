@@ -16,11 +16,12 @@
   
   /* apply styles to <header> */
   header {
-      padding: 20px 35px;
+      padding: 10px 10px;
       background-color: #0a2527;
       display:flex;
       justify-content: space-between;
       flex-wrap: wrap;
+      top :0;
       position: -webkit-sticky;
       position: sticky;
     }
@@ -35,6 +36,7 @@
   
   header nav {
       margin: 7px 0;
+      
     }
   
   header nav ul {
