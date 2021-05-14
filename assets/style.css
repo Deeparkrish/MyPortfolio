@@ -1,38 +1,43 @@
- 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+:root {
+    --primary-color:#1c8591;
   }
-
-.wrapper{
-    display:flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-}
-.wrapper > *{
-
-    padding:10px;
-    margin: 10px;
-    flex :1 100%;
-    border-radius: 10px;
-}
-
-.header{
-    background-color: green;
-    display:flex;
-    justify-content:space-between;
-   flex-wrap: wrap;
-}
-.header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color:darkgoldenrod;
-    margin: 0;
-  }
-
-.header nav ul {
+  
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  
+  body {
+      color: #1c8591;
+      font-family: Helvetica, Arial, sans-serif;
+      background-color: rgb(229, 232, 238);
+    }
+  
+  /* apply styles to <header> */
+  header {
+      padding: 20px 35px;
+      background-color: #0a2527;
+      display:flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      position: -webkit-sticky;
+      position: sticky;
+    }
+  
+  header h1 {
+      font-weight: bold;
+      font-size: 36px;
+      color: var(--primary-color);
+      margin: 0;
+      text-shadow: 0 0 10px rgba(0,0,0,0.5);     
+    }
+  
+  header nav {
+      margin: 7px 0;
+    }
+  
+  header nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -40,30 +45,30 @@
     list-style: none;
     }
   
-  .header nav ul li a {
+  header nav ul li a {
       margin: 0 30px;
       font-weight: lighter;
-      font-size: 1.5vw;
-      color:darkkhaki;
+      font-size: 1.3vw;
+      color: var(--primary-color);
       text-decoration: none;
       border-bottom: 2px solid;
       padding-bottom: 2px;
-      display: flex;
-      justify-content: right;
     }
-body {
-        color: #1c8591;
-        font-family: Helvetica, Arial, sans-serif;
-        background-color: rgb(229, 232, 238);
-}
+  header nav ul li a:hover {
+      
+      color:goldenrod;
+      border-radius: 15px;
+      text-shadow:coral;
+  }
 
-.footer {
-    background-color: tomato;
-    height:10px;
-    align-self:flex-end ;
+/* Scroll bar */
+::webkit-scrollbar{
+
+    width:auto;
 }
-.sidebar {
-    background-color: violet;
-    display: flex;
-    flex-direction: column;
+::webkit-scrollbar-thumb{
+    background-color: gray;
+    border-radius: 20px;
+
 }
+    
