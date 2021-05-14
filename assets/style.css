@@ -64,11 +64,11 @@
 /* Scroll bar */
 ::webkit-scrollbar{
 
-    width:auto;
+  width:auto;
 }
 ::webkit-scrollbar-thumb{
-    background-color: gray;
-    border-radius: 20px;
+  background-color: gray;
+  border-radius: 20px;
 
 }
 /* FOOTER STYLE START*/
@@ -275,7 +275,7 @@ figcaption{
   flex: 2 5%;
  
 }
-contact-info {
+.contact-info {
   flex: 150;
 }
 .contact-info ul {
@@ -302,3 +302,13 @@ margin: 20px 20px;
 color: #024e76;
 }
 
+/*  ADDING SCROLL BAR */
+::webkit-scrollbar{
+
+  width:auto;
+}
+::webkit-scrollbar-thumb{
+  background-color: gray;
+  border-radius: 20px;
+
+}
