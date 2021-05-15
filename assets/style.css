@@ -8,13 +8,8 @@
       box-sizing: border-box;
     }
   
-  body {
-      color: #1c8591;
-      font-family: Helvetica, Arial, sans-serif;
-      background-color: rgb(229, 232, 238);
-    }
-  
-  /* apply styles to <header> */
+ 
+  /* APPLY STYLES TO HEADER*/
   header {
       padding: 10px 10px;
       background-color: #0a2527;
@@ -25,7 +20,7 @@
       position: -webkit-sticky;
       position: sticky;
       z-index: 10000;
-    }
+  }
   
   header h1 {
       font-weight: bold;
@@ -33,12 +28,11 @@
       color: var(--primary-color);
       margin: 0;
       text-shadow: 0 0 10px rgba(0,0,0,0.5);     
-    }
+  }
   
   header nav {
-      margin: 7px 0;
-      
-    }
+      margin: 7px 0;     
+  }
   
   header nav ul {
     display: flex;
@@ -46,7 +40,7 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    }
+  }
   
   header nav ul li a {
       margin: 0 30px;
@@ -63,17 +57,16 @@
       /*border-radius: 15px;*/
       text-shadow:coral;
   }
+/* END OF HEADER STYLE */
 
-/* Scroll bar */
-::webkit-scrollbar{
-
-  width:auto;
+/* STYLE BODY */
+body {
+  color: #1c8591;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: rgb(229, 232, 238);
 }
-::webkit-scrollbar-thumb{
-  background-color: gray;
-  border-radius: 20px;
+/*END OF BODY STYLE */
 
-}
 /* FOOTER STYLE START*/
 footer {
   background:#2a607c;
@@ -84,7 +77,6 @@ footer {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
   flex: 0;
-
 }
 footer div{    
   line-height: 1.5;;
@@ -96,9 +88,15 @@ footer h2 {
   font-size: 20px;
   margin:0;    
 }
+footer  ul li
+{
+  display: inline;
+  list-style-type: none;
+  padding-right: 40px;
+}
 /* FOOTER STYLE END */
     
-/* FIGURE STYLE START*/
+/* BACKGROUND IMAGE /PHOTO/ CAPTION STYLE START*/
 .Mypicture {
   height: 200px;
   background-image: url("./img/images5.jpeg");
@@ -110,10 +108,7 @@ footer h2 {
   position: relative;
   align-items: center;
   width: 100%;
-
 }
-/* FIGURE STYLE END  */
-
 /*Align the employee's photo and caption*/
 .photo {
   position: absolute;
@@ -131,12 +126,12 @@ footer h2 {
   margin-top: 150px;
   background-color:rgb(229, 232, 238);
   margin-right:20px;
-
 }
+/* BACKGROUND IMAGE /PHOTO/ CAPTION STYLE END*/
 
 
 
-/* About myself  section style */
+/* ABOUT SECTION STYLE START */
 .about{
     display: flex;
     flex-wrap: wrap; 
@@ -144,19 +139,15 @@ footer h2 {
     margin: 20px 50px;  
     width: 90%;
     align-items: center;
-
 }
 
-/*  STYLING FOR EACH SECTION */  
-
+/* COMMON STYLING FOR EACH SECTION */  
 .section-title {
     font-size: 35px;
     font-family:cursive;
     color: #024e76;
     margin: 0 0 0 80px;
-    width: 50%;
-    
-    
+    width: 50%;   
   }
   
 .section-info {
@@ -167,7 +158,6 @@ footer h2 {
     justify-content: flex-start;
     width: 90%;
     /*border-left:5px #39a6b2 solid;*/
-
   }
 
   .section-heading-align {
@@ -200,6 +190,9 @@ footer h2 {
     height: 550px;
     flex: 2 5%;  
   }
+/* COMMON STYLING FOR EACH SECTION END  */  
+
+/* PROJECT DETAILS SECTION STYLES START */
 .container{
     flex:80;
   }
@@ -215,11 +208,10 @@ footer h2 {
   
 .project-container{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 10vw);
-    grid-gap: 25px;
-    margin-left: 30px;     
-    
+    grid-gap: 15px;
+    margin-left: 30px;        
   }
   
 .project-item{
@@ -229,22 +221,24 @@ footer h2 {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  border: solid 1px var(--primary-color);  
+  border: solid 5px lightblue;  
  }
  figcaption{
+  align-self:flex-start;
   position: absolute;
-  margin-left: 5px;
-  margin-top: -20%;
+  margin-left: 2px;
+  /*margin-top: -18%;*/
+  bottom: 5px;
   font-size: 12px;
   font-style: italic;
-  font-weight: bold;
-  color:  rgb(22, 44, 44);
-  border: solid 1px var(--primary-color);
-  background-color: rgb(229, 232, 238);
+  font-weight:bolder;
+  color:black;
+  border: none;
+  background-color:lightgray;
 }
 .project-work-1 {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 4;
   position: relative;
@@ -252,36 +246,28 @@ footer h2 {
   }
   
 .project-work-2 {
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 6;
     grid-row-start: 2;
-    grid-row-end: 3;
+    grid-row-end: 4;
     }
   
 .project-work-3 {
   grid-column-start: 1;
-  grid-column-end: 2;
+  grid-column-end: 4;
   grid-row-start: 4;
   grid-row-end: 5;
   }
   
 .project-work-4 {
-  grid-column-start: 3;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: 4;
-  }
-  
-.project-work-5 {
-  grid-column-start: 2;
-  grid-column-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 6;
   grid-row-start: 4;
   grid-row-end: 5;
   }
-
+ /* PROJECT DETAILS SECTION STYLES END */
 
 /* CONTACT SECTION*/
-
 .contact-info {
  flex: 150;
 
@@ -310,19 +296,13 @@ margin: 20px 20px;
 color: #024e76;
 }
 
-/*  ADDING SCROLL BAR */
+/* SCROLL BAR STYLE  */
 ::webkit-scrollbar{
-
   width:auto;
 }
 ::webkit-scrollbar-thumb{
   background-color: gray;
   border-radius: 20px;
 }
+/* END OF SCROLL BAR */
 
-.footer ul li
-{
-  display: inline;
-  list-style-type: none;
-  padding-right: 40px;
-}
