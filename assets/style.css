@@ -310,3 +310,142 @@ color: #024e76;
 }
 /* END OF SCROLL BAR */
 
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 980px) {
+  header {
+    padding-bottom: 10px;
+    justify-content: center;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    line-height: 1.5;
+  }
+
+  header nav ul li a {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .Mypicture{
+    background-size: cover;
+  }
+
+  .photo{
+    height: 100px;
+    width: 100px;
+  }
+  .Mypicture h2 {      
+    font-size: 10px;
+    margin-top: 350px;
+    }
+
+  .section-text p{
+      width: 85%;
+    }
+
+  .section-title {
+    width: 100%;
+    text-align: right;
+    font-weight: bold;
+  }
+
+  .section-vertical-border {      
+    height: 350px;     
+  }
+
+.section-vertical-border2{
+  height: 280px;     
+}  
+  .container{
+    width: 100%;
+  }
+  .contact-info ul {     
+    width: 100%;
+    justify-content: left;
+    flex-direction: column;      
+}
+  
+  .contact-info ul li a {
+      font-size: 18px;
+      line-height: 2;  
+      font-weight: bold;
+}
+
+  .photo{
+      top:200px;
+  }
+    
+  figcaption{
+      margin-left: 5px;
+      margin-top: -45%;
+      font-size: 5px;
+  }
+
+}
+ /* MEDIA QUERY FOR TABLETS AND SMALLER */
+ @media screen and (max-width: 768px) {
+  /*section {
+          padding:30px 15px;
+  }
+  .step h3 {
+          flex: 1 100%;
+          text-align: center;
+  }
+  .step-info {
+          flex: 2 100%;
+          text-align: center;
+          justify-content: center;
+  }           
+  .step-img {
+          flex: 0 32%;
+          margin-right: 0;
+          margin-top: 15px;
+          margin-bottom: 15px;
+  }
+  .step-text {
+          flex: 100%;  
+  }    
+  .trainer-bio h3, .trainer-bio h4 {
+          display: block;
+  }    */
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+ /* .hero-form button {
+          width: 100%;
+  }        
+  .section-title {
+          width: 95%;
+  }
+      
+  .intro p {
+          width: 100%;
+  }
+      
+  .trainer {
+          flex: 0 100%;
+  }     
+      
+  .contact-info {
+          text-align: center;
+  }
+      
+  .contact-info > * {
+          flex: 0 100%;
+        }
+       
+  .contact-form {
+          order: 3;
+  }*/
+}
