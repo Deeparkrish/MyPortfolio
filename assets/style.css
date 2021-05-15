@@ -86,13 +86,17 @@ footer div{
 footer h2 {
   display:inline;
   font-size: 20px;
-  margin:0;    
 }
 footer  ul li
 {
   display: inline;
   list-style-type: none;
   padding-right: 40px;
+}
+footer img {
+/* Style */
+max-height: 20px;
+max-width: 20px;
 }
 /* FOOTER STYLE END */
     
