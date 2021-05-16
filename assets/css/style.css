@@ -103,7 +103,7 @@ max-width: 20px;
 /* BACKGROUND IMAGE /PHOTO/ CAPTION STYLE START*/
 .Mypicture {
   height: 200px;
-  background-image: url("./img/green\ background\ .jpeg");
+  background-image: url("../img/green\ background\ image.jpeg");
   background-size: cover;
   background-position: center;
   display: flex;
