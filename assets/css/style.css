@@ -103,7 +103,7 @@ max-width: 20px;
 /* BACKGROUND IMAGE /PHOTO/ CAPTION STYLE START*/
 .Mypicture {
   height: 200px;
-  background-image: url("../img/green\ background\ image.jpeg");
+  background-image: url("../img/images3.jpeg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -279,7 +279,6 @@ max-width: 20px;
 /* CONTACT SECTION*/
 .contact-info {
  flex: 150;
-
 }
 .contact-info ul {
   display: flex;
