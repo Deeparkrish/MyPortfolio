@@ -294,7 +294,7 @@ max-width: 20px;
 .contact-info ul li a {
     margin: 0 30px;
     font-size: 18px;
-    color: var(--primary-color);
+    color:var(--primary-color);
     text-decoration: none;
     border-bottom: 3px solid;
     padding-bottom: 2px;
