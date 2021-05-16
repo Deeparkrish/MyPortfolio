@@ -46,7 +46,7 @@
       margin: 0 30px;
       font-weight: lighter;
       font-size: 1.3vw;
-      color: var(--primary-color);
+      color:lightgray;
       text-decoration: none;
       border-bottom: 2px solid;
       padding-bottom: 2px;
@@ -103,7 +103,7 @@ max-width: 20px;
 /* BACKGROUND IMAGE /PHOTO/ CAPTION STYLE START*/
 .Mypicture {
   height: 200px;
-  background-image: url("./img/images5.jpeg");
+  background-image: url("./img/green\ background\ image.jpeg");
   background-size: cover;
   background-position: center;
   display: flex;
@@ -289,7 +289,7 @@ max-width: 20px;
 .contact-info ul li a {
     margin: 0 30px;
     font-size: 18px;
-    color: var(--primary-color);
+    color:var(--primary-color);
     text-decoration: none;
     border-bottom: 3px solid;
     padding-bottom: 2px;
@@ -394,58 +394,10 @@ color: #024e76;
 }
  /* MEDIA QUERY FOR TABLETS AND SMALLER */
  @media screen and (max-width: 768px) {
-  /*section {
-          padding:30px 15px;
-  }
-  .step h3 {
-          flex: 1 100%;
-          text-align: center;
-  }
-  .step-info {
-          flex: 2 100%;
-          text-align: center;
-          justify-content: center;
-  }           
-  .step-img {
-          flex: 0 32%;
-          margin-right: 0;
-          margin-top: 15px;
-          margin-bottom: 15px;
-  }
-  .step-text {
-          flex: 100%;  
-  }    
-  .trainer-bio h3, .trainer-bio h4 {
-          display: block;
-  }    */
+  
 }
 
 /*MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
 @media screen and (max-width: 575px) {
- /* .hero-form button {
-          width: 100%;
-  }        
-  .section-title {
-          width: 95%;
-  }
-      
-  .intro p {
-          width: 100%;
-  }
-      
-  .trainer {
-          flex: 0 100%;
-  }     
-      
-  .contact-info {
-          text-align: center;
-  }
-      
-  .contact-info > * {
-          flex: 0 100%;
-        }
-       
-  .contact-form {
-          order: 3;
-  }*/
+
 }
