@@ -64,6 +64,7 @@ body {
   color: #1c8591;
   font-family: Helvetica, Arial, sans-serif;
   background-color:lightgray;
+
 }
 /*END OF BODY STYLE */
 
@@ -248,7 +249,7 @@ max-width: 20px;
 }
 .project-work-1 {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 2;
   grid-row-end: 4;
   position: relative;
@@ -256,22 +257,22 @@ max-width: 20px;
   }
   
 .project-work-2 {
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 5;
+    grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: 4;
     }
   
 .project-work-3 {
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
   grid-row-start: 4;
   grid-row-end: 5;
   }
   
 .project-work-4 {
-  grid-column-start: 4;
-  grid-column-end: 6;
+  grid-column-start: 5;
+  grid-column-end: 7;
   grid-row-start: 4;
   grid-row-end: 5;
   }
