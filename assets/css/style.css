@@ -388,7 +388,7 @@ max-width: 20px;
   }
     
   figcaption{
-      margin-left: 5px;
+      margin:0px;
       margin-top: -45%;
       font-size: 5px;
   }
@@ -428,8 +428,10 @@ max-width: 20px;
     width: 100px;
   }
   .Mypicture h2 {      
-    font-size: 10px;
-    margin-top: 150px;
+    font-size: 26px;
+    margin-top: 40px;
+    margin-right :150px;
+    margin-bottom:50px;
   }
 
   .section-text p{
@@ -471,8 +473,8 @@ max-width: 20px;
       top:75px;
   }  
   figcaption{
-      margin-left: 5px;
-      margin-top: -55%;
+      margin:0px;
+      margin-top: -45%;
       font-size: 5px;
   }
 }
@@ -521,9 +523,9 @@ max-width: 20px;
   }
   .Mypicture h2 {      
     font-size: 18px;
-    margin-top: 50px;
-    margin-right :20px;
-    margin:60px;
+    margin-top: 40px;
+    margin-right :150px;
+    margin-bottom:50px;
     
   }
 
