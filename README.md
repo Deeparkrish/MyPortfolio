@@ -13,7 +13,7 @@ A portfolio of work can showcase your skills and talents to employers looking to
 * CSS
 
 ## Website
-https://github.com/Deeparkrish/MyPortfolio
+https://deeparkrish.github.io/MyPortfolio/
 
 ## Contribution
 Made with ❤️ by [Deepa Krishnan]
