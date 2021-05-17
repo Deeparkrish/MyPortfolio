@@ -1,6 +1,8 @@
 :root {
     --primary-color:#1c8591;
     --secondary-color:lightgray;
+    --tertiary-color:#39a6b2;
+    --mytext-color:#05628d;
   }
   
   * {
@@ -26,7 +28,7 @@
   header h1 {
       font-weight: bold;
       font-size: 36px;
-      color:lightgray;
+      color:var(--secondary-color);
       
       margin: 0;
       text-shadow: 0 0 10px rgba(0,0,0,0.5);     
@@ -48,7 +50,7 @@
       margin: 0 30px;
       font-weight: lighter;
       font-size: 1.3vw;
-      color:lightgray;
+      color:var(--secondary-color);
       text-decoration: none;
       border-bottom: 2px solid;
       padding-bottom: 2px;
@@ -64,7 +66,7 @@
 body {
   color:var(--primary-color);
   font-family: Helvetica, Arial, sans-serif;
-  background-color:lightgray;
+  background-color:var(--secondary-color);
 
 }
 /*END OF BODY STYLE */
@@ -74,7 +76,7 @@ footer {
   background:#2a607c;
   width:100%;
   padding: 10px;
-  color:#ffffff;
+  color:var(--secondary-color);
   clear: both;
   text-align: center;
   flex: 0;
@@ -129,7 +131,7 @@ max-width: 20px;
   font-size: 26px;
   font-style:oblique;
   font-weight: bold;
-  color:lightgray;
+  color:var(--secondary-color);
   margin-top: 150px;
   margin-right:20px;
 }
@@ -163,7 +165,6 @@ max-width: 20px;
     align-items: center;
     justify-content: flex-start;
     width: 90%;
-    /*border-left:5px #39a6b2 solid;*/
   }
 
   .section-heading-align {
@@ -173,7 +174,7 @@ max-width: 20px;
   }
 
 .section-vertical-border{
-    border-left: 3px solid #39a6b2;
+    border-left: 3px solid var(--tertiary-color);
     height: 150px;
     flex: 2 1%;
   }
@@ -183,8 +184,7 @@ max-width: 20px;
   }
   
 .section-text p {
-    color: #05628d;
-    /*font-weight: bold;*/
+    color:var(--mytext-color);
     font-style: italic;
     font-size: 16px;
     text-align: left;
@@ -194,7 +194,7 @@ max-width: 20px;
   }
   
 .section-vertical-border2{
-    border-left: 3px solid #39a6b2;
+    border-left: 3px solid var(--tertiary-color);
     height: 550px;
     flex: 2 5%;  
   }
@@ -246,7 +246,7 @@ max-width: 20px;
   font-weight:bolder;
   color:black;
   border: none;
-  background-color:lightgray;
+  background-color:var(--secondary-color);
 }
 .project-work-1 {
   grid-column-start: 1;
@@ -295,7 +295,7 @@ max-width: 20px;
 .contact-info ul li a {
     margin: 0 30px;
     font-size: 18px;
-    color: #05628d;
+    color:var(--mytext-color);
     text-decoration: none;
     border-bottom: 3px solid;
     padding-bottom: 2px;
