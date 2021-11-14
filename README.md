@@ -1,7 +1,7 @@
 # MyPortfolio
 Creating a Professional portfolio using HTML and CSS
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. 
+A portfolio of work that can showcase your skills and talents to employers looking to fill a part-time or full-time position. 
 
 The following have been incorporated in this project :
 
